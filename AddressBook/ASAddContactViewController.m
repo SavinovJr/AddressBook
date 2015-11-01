@@ -215,7 +215,7 @@
         
         self.curImageIndex++;
         
-        self.imageView.image = [self.images objectAtIndex:self.curImageIndex];
+        
         
         if (self.curImageIndex == [self.images count]) {
             
@@ -223,6 +223,7 @@
             
         }
         
+        self.imageView.image = [self.images objectAtIndex:self.curImageIndex];
     }
 }
 
